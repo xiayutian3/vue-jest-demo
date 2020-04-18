@@ -27,6 +27,6 @@ describe('测试jest组件', () => {
     // count>1的情况
     // 点击一下（语法类似与jq语法）
     wrapper.find('.btn').trigger('click')
-    expect(wrapper.vm.message).toBe('count 点击')
+    expect(wrapper.vm.message).toBe('count 点击2')
   })
 })
