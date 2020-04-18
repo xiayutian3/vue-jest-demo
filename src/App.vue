@@ -2,17 +2,17 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <jest></jest>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue'
 import Jest from './Jest'
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
+    HelloWorld,
     Jest
   }
 }
